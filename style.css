@@ -556,16 +556,35 @@ footer .copyright{
 }
 
 
-@media (min-width: 600px) and (max-width: 1033px) {
+@media (min-width: 600px) and (max-width: 1234px) {
  #hero {
     height: 70vh;
     padding: 0 80px;
     background-position: top 30% right 30%;
     
 }
-#feature{
-    justify-content: center;
+#feature {
+    justify-content: space-between;
 }
+.section-p1 {
+    padding: 15px 30px ;
+}
+#banner3 {
+    padding: 0 20px;
+}
+#banner3 .banner-box {
+    width: 100%;
+ }
+ #sm-banner .banner-box {
+   
+    min-width: 50%;
+    height: 40vh;
+    
+}
+ #sm-banner .banner-box2 {
+    margin-left: 0px;
+}
+ 
 }
 @media (max-width:477px){
     #header {
