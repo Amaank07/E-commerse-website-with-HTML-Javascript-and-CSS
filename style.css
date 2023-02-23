@@ -644,6 +644,9 @@ agination{
 #page-header{
     background-image: url('image/banner/b19.jpg');
 }
+#blog{
+    padding: 150px 150px 0 150px;
+}
 
 @media (min-width: 600px) and (max-width: 1234px) {
  #hero {
@@ -673,6 +676,7 @@ agination{
  #sm-banner .banner-box2 {
     margin-left: 0px;
 }
+#
  
 }
 @media (max-width:477px){
