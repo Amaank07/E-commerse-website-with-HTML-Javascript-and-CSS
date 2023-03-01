@@ -700,7 +700,36 @@ agination{
     color: #c9cbce;
     z-index: -9;
 }
+/* About us */
+#page-header.about-header{
+    background-image: url(image/about/banner.png);
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+    padding-left: 30px;
+}
+#about-head{
+    display: flex;
+    align-items: center;
 
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-app{
+    text-align: center;
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
 
 
 @media (min-width: 600px) and (max-width: 1234px) {
@@ -821,6 +850,22 @@ agination{
         width: 100%;
     }
 
+}
+/* about page responsive  */
+@media (max-width:477px){
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+    #about-app .video {
+        width: 100%;
+    }
 }
 
 /* * {
